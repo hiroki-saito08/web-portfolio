@@ -21,10 +21,9 @@ html {
 body {
   font-family: 'Noto Sans Japanese', serif;
   font-size: 1.2rem;
-  width: 640px;
+  width: 1054px;
   margin: 0 auto;
-  padding: 0;
-  background-color: #EEEEEE;
+  padding: 0 15px;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -32,4 +31,12 @@ body {
 a:link, a:visited, a:hover, a:active {
   color: #0000ff;
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
 }
