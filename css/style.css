@@ -21,9 +21,10 @@ html {
 body {
   font-family: 'Noto Sans Japanese', serif;
   font-size: 1.2rem;
-  width: 640px;
+  width: 1054px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   background-color: #EEEEEE;
 }
 *, *::before, *::after {
@@ -32,4 +33,78 @@ body {
 a:link, a:visited, a:hover, a:active {
   color: #0000ff;
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+/* レイアウト */
+.ly_header {
+  background-color: #333;
+}
+
+.ly_header_inner {
+  background-color: #333;
+}
+
+.ly_main {
+  background-color: #333;
+}
+
+.ly_mvTop {
+  background-color: #333;
+}
+
+.ly_mvBottom {
+  background-color: #333;
+}
+
+.ly_feature {
+  background-color: #333;
+}
+
+.ly_feature_inner {
+  background-color: #333;
+}
+
+.ly_plan {
+  background-color: #333;
+}
+
+.ly_plan_inner {
+  background-color: #333;
+}
+
+.ly_plan_body {
+  background-color: #333;
+}
+
+.ly_info {
+  background-color: #333;
+}
+
+.ly_info_inner {
+  background-color: #333;
+}
+
+.ly_info_body {
+  background-color: #333;
+}
+
+.ly_access {
+  background-color: #333;
+}
+
+.ly_footer {
+  background-color: #333;
 }
